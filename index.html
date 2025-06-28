@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio | Nama Anda</title>
+
+    <!-- Google Fonts: Poppins untuk teks utama, Syne untuk judul -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Utama -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome untuk ikon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="top"></div>
+
+    <!-- ======================= HERO ======================= -->
+    <header class="hero">
+      <div class="hero-content">
+        <div class="profile-picture-container">
+          <img
+            src="img/pp.jpg"
+            alt="Foto Profil"
+            class="profile-picture"
+            onerror="this.onerror=null;this.src='https://placehold.co/150x150/CCCCCC/FFFFFF?text=Error';"
+          />
+        </div>
+        <h1 class="name">Nama Anda</h1>
+        <p class="job-title">Saya seorang <span id="typewriter"></span></p>
+        <div class="scroll-down">
+          <a href="#about" aria-label="Scroll ke bagian Tentang Saya">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ======================= TENTANG SAYA ======================= -->
+      <section id="about" class="container reveal">
+        <h2 class="section-title">Tentang Saya</h2>
+        <p class="about-text">
+          Halo! Saya adalah seorang desainer UI/UX yang bersemangat dan
+          developer MERN Stack yang berdedikasi. Saya terobsesi dalam
+          menciptakan pengalaman digital yang intuitif, fungsional, dan indah.
+          Dengan keahlian di kedua dunia, saya mampu menjembatani kesenjangan
+          antara desain konseptual dan implementasi teknis untuk menghasilkan
+          produk yang solid dan disukai pengguna.
+        </p>
+      </section>
+
+      <!-- ======================= KEAHLIAN ======================= -->
+      <section id="skills" class="container reveal">
+        <h2 class="section-title">Keahlian & Teknologi</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>UI/UX & Desain</h3>
+            <div class="skill-list">
+              <span class="skill-item"><i class="fab fa-figma"></i>Figma</span>
+              <span class="skill-item"
+                ><i class="fas fa-image"></i>Photoshop</span
+              >
+
+              <span class="skill-item"
+                ><i class="fas fa-users"></i>User Research</span
+              >
+              <span class="skill-item"
+                ><i class="fas fa-sitemap"></i>Wireframing</span
+              >
+              <span class="skill-item"
+                ><i class="fas fa-mobile-screen-button"></i>Prototyping</span
+              >
+              <span class="skill-item"
+                ><i class="fas fa-book-bookmark"></i>Design Systems</span
+              >
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Bahasa & Teknologi</h3>
+            <div class="skill-list">
+              <span class="skill-item"
+                ><i class="fab fa-js-square"></i>JavaScript</span
+              >
+              <span class="skill-item"
+                ><i class="fab fa-react"></i>React.js</span
+              >
+              <span class="skill-item"
+                ><i class="fab fa-node-js"></i>Node.js</span
+              >
+              <span class="skill-item"
+                ><i class="fas fa-server"></i>Express.js</span
+              >
+              <span class="skill-item"
+                ><i class="fas fa-database"></i>MongoDB</span
+              >
+              <span class="skill-item"><i class="fab fa-html5"></i>HTML5</span>
+              <span class="skill-item"
+                ><i class="fab fa-css3-alt"></i>CSS3</span
+              >
+              <span class="skill-item"
+                ><i class="fas fa-wind"></i>Tailwind CSS</span
+              >
+              <span class="skill-item"><i class="fab fa-git-alt"></i>Git</span>
+              <span class="skill-item"
+                ><i class="fab fa-github"></i>GitHub</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================= KARYA SAYA ======================= -->
+      <section id="portfolio" class="container reveal">
+        <h2 class="section-title">Karya Saya</h2>
+        <div class="portfolio-grid">
+          <a href="#" class="portfolio-item">
+            <img
+              src="https://placehold.co/600x600/8A2BE2/FFFFFF?text=UI/UX+Project+1"
+              alt="Project 1"
+            />
+            <div class="portfolio-item-info">
+              <h3>Desain Aplikasi Mobile Fintech</h3>
+              <p>Studi Kasus UI/UX</p>
+            </div>
+          </a>
+          <a href="#" class="portfolio-item">
+            <img
+              src="https://placehold.co/400x300/4682B4/FFFFFF?text=Web+Project+2"
+              alt="Project 2"
+            />
+            <div class="portfolio-item-info">
+              <h3>Website E-commerce</h3>
+              <p>MERN Stack</p>
+            </div>
+          </a>
+          <a href="#" class="portfolio-item">
+            <img
+              src="https://placehold.co/400x300/5F9EA0/FFFFFF?text=Web+Project+3"
+              alt="Project 3"
+            />
+            <div class="portfolio-item-info">
+              <h3>Aplikasi Dashboard Analitik</h3>
+              <p>React & D3.js</p>
+            </div>
+          </a>
+          <a href="#" class="portfolio-item">
+            <img
+              src="https://placehold.co/600x300/6A5ACD/FFFFFF?text=UI+Redesign+4"
+              alt="Project 4"
+            />
+            <div class="portfolio-item-info">
+              <h3>Redesain Antarmuka Web</h3>
+              <p>Peningkatan Pengalaman Pengguna</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- TULISAN SAYA (MEDIUM) -->
+      <section id="writings" class="container reveal">
+        <h2 class="section-title">Tulisan Saya</h2>
+        <div class="writings-grid">
+          <a
+            href="#"
+            target="_blank"
+            class="writing-card"
+            aria-label="Baca artikel tentang Pentingnya Design System"
+          >
+            <div class="writing-thumbnail">
+              <img
+                src="https://placehold.co/400x250/8A2BE2/FFFFFF?text=Artikel+1"
+                alt="Thumbnail Artikel 1"
+                onerror="this.onerror=null;this.src='https://placehold.co/400x250/CCCCCC/FFFFFF?text=Error';"
+              />
+            </div>
+            <div class="writing-content">
+              <h3 class="writing-title">
+                Mengapa Design System Penting untuk Skalabilitas Produk?
+              </h3>
+              <p class="writing-snippet">
+                Menyelami bagaimana design system dapat mempercepat proses
+                pengembangan, menjaga konsistensi, dan menjadi fondasi yang
+                kokoh untuk pertumbuhan produk digital Anda.
+              </p>
+              <span class="read-more"
+                >Baca di Medium <i class="fas fa-arrow-right"></i
+              ></span>
+            </div>
+          </a>
+          <a
+            href="https://medium.com/@Dadannurohman/ui-ux-case-study-redesain-kitabisa-com-app-4bafb0d6251f"
+            target="_blank"
+            class="writing-card"
+            aria-label="Baca artikel tentang React Hooks vs Class Components"
+          >
+            <div class="writing-thumbnail">
+              <img
+                src="img/medium2.webp"
+                alt="Thumbnail Artikel 2"
+                onerror="this.onerror=null;this.src='https://placehold.co/400x250/CCCCCC/FFFFFF?text=Error';"
+              />
+            </div>
+            <div class="writing-content">
+              <h3 class="writing-title">Redesign Kitabisa.com App</h3>
+              <p class="writing-snippet">
+                Project ini merupakan bagian dari Program Pelatihan Professional
+                Academy — Kominfo Digital Talent Scholarship 2022
+              </p>
+              <span class="read-more"
+                >Baca di Medium <i class="fas fa-arrow-right"></i
+              ></span>
+            </div>
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            class="writing-card"
+            aria-label="Baca artikel tentang Prinsip UX untuk Developer"
+          >
+            <div class="writing-thumbnail">
+              <img
+                src="https://placehold.co/400x250/5F9EA0/FFFFFF?text=Artikel+3"
+                alt="Thumbnail Artikel 3"
+                onerror="this.onerror=null;this.src='https://placehold.co/400x250/CCCCCC/FFFFFF?text=Error';"
+              />
+            </div>
+            <div class="writing-content">
+              <h3 class="writing-title">
+                5 Prinsip UX yang Wajib Diketahui Setiap Developer
+              </h3>
+              <p class="writing-snippet">
+                Developer yang memahami dasar-dasar UX dapat membangun produk
+                yang lebih baik. Mari kita bahas beberapa prinsip inti yang bisa
+                langsung diterapkan dalam kode Anda.
+              </p>
+              <span class="read-more"
+                >Baca di Medium <i class="fas fa-arrow-right"></i
+              ></span>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- ======================= NEW: CONTACT SECTION ======================= -->
+    <section id="contact" class="contact-section container reveal">
+      <h2>Tertarik untuk Berkolaborasi?</h2>
+      <p>
+        Saya selalu terbuka untuk diskusi, proyek menarik, atau sekadar menyapa.
+        Mari kita ciptakan sesuatu yang hebat bersama.
+      </p>
+      <div class="contact-social-links">
+        <a
+          href="https://www.linkedin.com/in/usernameanda/"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://github.com/usernameanda"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:emailanda@example.com" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- ======================= NEW: FOOTER ======================= -->
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <span class="logo-name">Nama Anda</span>
+          <p>
+            Seorang desainer dan developer yang bersemangat mengubah ide menjadi
+            pengalaman digital yang bermakna.
+          </p>
+        </div>
+        <div class="footer-nav">
+          <h4>Navigasi</h4>
+          <ul>
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#skills">Keahlian</a></li>
+            <li><a href="#portfolio">Karya</a></li>
+            <li><a href="#writings">Tulisan</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4>Sosial</h4>
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/usernameanda/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/usernameanda" target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a href="https://medium.com/@usernameanda" target="_blank"
+                >Medium</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; <span id="year"></span> Didesain & Dikembangkan oleh Nama Anda.
+      </div>
+    </footer>
+
+    <!-- ======================= NEW: RETURN TO TOP BUTTON ======================= -->
+    <!-- Tombol Kembali ke Atas -->
+    <a href="#top" class="return-to-top" aria-label="Kembali ke atas">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- ======================= JS ======================= -->
+    <script src="script.js"></script>
+  </body>
+</html>
